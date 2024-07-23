@@ -1,7 +1,6 @@
-import { ChangeEvent, FormEvent, useMemo } from 'react';
+import { FormEvent, useMemo } from 'react';
 import { userForm } from '../../hooks/userForm';
 import { getHeroesByName } from '../../selectors/getHeroesbyName';
-import { heroes } from '../../data/heroes';
 import { HeroCard } from '../hero/HeroCard';
 import { useNavigate, useLocation } from 'react-router-dom';
 import querystring from 'query-string';

@@ -6,7 +6,6 @@ export const HeroCard = ({
   characters,
   first_appearance,
   id,
-  publisher,
   superhero,
 }: Heroe) => {
   return (

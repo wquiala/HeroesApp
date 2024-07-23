@@ -1,5 +1,4 @@
 import { useNavigate } from 'react-router-dom';
-import { HeroesApp } from '../../HeroesApp';
 import { useContext } from 'react';
 import { AuthContext } from '../../auth/AuthContext';
 

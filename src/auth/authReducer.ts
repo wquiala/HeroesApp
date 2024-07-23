@@ -1,4 +1,4 @@
-import { TypesAuth, AuthAction } from '../types/types';
+import { AuthAction } from '../types/types';
 export interface State {
   name?: string;
   email?: string;

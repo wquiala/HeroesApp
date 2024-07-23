@@ -1,7 +1,6 @@
 import { useContext } from 'react';
 import { Navigate, useLocation } from 'react-router-dom';
 import { AuthContext } from '../auth/AuthContext';
-import { DashboardRoutes } from './DashboardRoutes';
 
 interface Props {
   children: JSX.Element;

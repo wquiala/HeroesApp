@@ -1,20 +1,6 @@
-import React, { useReducer } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {
-  BrowserRouter,
-  createBrowserRouter,
-  RouterProvider,
-} from 'react-router-dom';
-import { Navbar } from './components/ui/NavBar';
-import ErrorPage from './components/error/ErrorPage';
-import { LoginScreen } from './components/login/LoginScreen';
-import { MarvelScreen } from './components/marvel/MarvelScreen';
-import { DcScreen } from './components/dc/DcScreen';
-import { SearchScreen } from './components/search/SearchScreen';
-import { HeroScreen } from './components/hero/HeroScreen';
-import { AuthContext } from './auth/AuthContext';
-import { authReducer } from './auth/authReducer';
-import { AppRouter } from './routers/AppRouter';
+
 import { HeroesApp } from './HeroesApp';
 /* 
 const dashboardRoutes = createBrowserRouter([
